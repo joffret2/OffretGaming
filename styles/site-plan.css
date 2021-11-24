@@ -64,7 +64,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: var("Zilla Slab");
   color: var(--paragraph-color);
   padding: 1em;
 }
