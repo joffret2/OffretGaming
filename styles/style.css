@@ -90,6 +90,7 @@ nav a:hover{
     grid-row: 2/5;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
   }
   .aboutme-text {
     grid-column: 4/7;
@@ -100,6 +101,7 @@ nav a:hover{
     line-height: 1.5em;
     box-shadow: 5px 5px 10px #6f7364;
     font-family: 'Hind Siliguri';
+    margin-top: 100px;
   }
 
   /* Page navagators */
