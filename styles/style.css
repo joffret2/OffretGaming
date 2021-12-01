@@ -154,6 +154,11 @@ nav a:hover{
   font-size: 4em;
   font-family: 'Zilla Slab'
 }
+.page2-title{
+  text-decoration: underline dotted;
+  font-size: 4em;
+  font-family: 'Zilla Slab'
+}
 
 /*  box 1  */
 .box1{
