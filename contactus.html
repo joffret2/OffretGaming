@@ -37,8 +37,88 @@
              <label for="msg">Message:</label>
              <textarea id="msg" name="user_message"></textarea>
            </li>
+           <li class="button">
+               <button type="submit">Send your message</button>
+           </li>
           </ul>
          </form>
+         
+         
+         <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Anywhere else you want to go?</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="page1.html">Page 1</a>
+              <a href="page2.html">Page 2</a>
+              <a href="site-plan.html">Site Plan</a>
+            </div>
+          </div>
+          
+          <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+        <style>
+            .dropbtn {
+              background-color: #775144;
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+              margin-top: 100px;
+              border: 5px solid black;
+              font-family: 'Hind Siliguri';
+            }
+            
+            .dropbtn:hover, .dropbtn:focus {
+              background-color: #2A0800;
+            }
+            
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 260px;
+              overflow: auto;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              font-family: 'Hind Siliguri';
+            }
+            
+            .dropdown a:hover {background-color: #775144;}
+            
+            .show {display: block;}
+            </style>
   </main>
     <footer>
         <h3>Offret Gaming &copy; 2021 - Jonathan Offret</h3>
