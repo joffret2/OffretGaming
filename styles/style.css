@@ -25,6 +25,7 @@ nav a {
   text-decoration: none;
   padding: 30px;
   padding-top: 5px;
+  font-family: 'Zilla Slab';
 }
 nav a:hover{
   color: whitesmoke;
@@ -568,6 +569,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Zilla Slab';
     }
     footer h3{
       color: #BEA8A7;
